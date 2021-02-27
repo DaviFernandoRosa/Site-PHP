@@ -1,0 +1,186 @@
+/* Estilizando o site*/
+/*    *documento em geral*/
+*{ padding:0; 
+	margin: 0;
+ font-size: 18px;  /* estilização geral do site*/
+  text-decoration:none;
+  color: #333;
+  list-style: none;
+ }
+
+
+body{
+
+	background-color: #59f;
+}
+
+
+
+
+
+ #geral{max-width: 1200px;height: auto; overflow: hidden;margin: 0 auto;}
+
+
+ /*---------------INICIO TOPO----------------------------*/
+
+ #topo{width: 100%; height: 200px;float: left;background-color: #FFF}
+ .logo{width: 300px;height: auto;float: left;margin: 40px 70px;}
+ .links_topo2{float: right;padding: 10px;margin: 70px 10px;box-shadow:2px 1px 7px 1px black;   background-color: #59f;color: #FFF; border-radius: 10px;}
+ .links_topo2:hover{background-color:#ff8c00;}
+ .links_topo3{float: right;padding: 10px;margin: 70px 5px;box-shadow: 2px 1px 7px 1px black;   background-color: #32CD32;color: #FFF; border-radius: 10px;}
+ .links_topo3:hover{background-color:#59f;}
+ /*---------------FIM TOPO----------------------------*/
+
+
+
+
+
+/*---------------INICIO MEUNU----------------------------*/
+
+ #menu{width: 100%; height: 50px;float: left;background-color: #ff8c00; }
+ .links_menu li a{float: left;padding: 15px;background-color:#ff8c00; color: #FFF  }
+ .links_menu li a:hover{background-color: #59f}
+/*---------------FIM MENU----------------------------*/
+
+
+
+
+
+
+/*---------------INICIO CONTEUDO PRINCIPAL----------------------------*/
+
+ #conteudo{width: 100%; height: 600px;float: left;background-color:#e1dfdd; }
+ #conteudo_principal{width:80%;min-height:500px;float:left;border:5px solid #F00;margin:20px 10px;}
+ .Titulo{text-align: center;color: blue;}
+ #recentes{width: 26%;min-height:600px;float:left;border:1px solid #ccc;margin: 20px 10px;}
+ .img{margin: 1px 3px; }
+ .div_baner{width: 45%; height: 600px;float: right;background-color:#fff;}
+ .foto_baner1{width: 99%; height: 619px; float: center;}
+
+/*---------------FIM CONTEUDO PRINCIPAL----------------------------*/
+
+
+
+
+/*------------------INICIO CONTEUDO 2-----------------------------*/
+#conteudo2{ width: 100%; height: 900px; float: left;background-color:#fff; }
+.titulo1{font-size: 48px;margin: 10px 400px;color:#59f;font-weight: normal;font-style: italic;}
+.titulo2 {font-size: 30px;margin: 50px 20px; color: #ff8c00;font-weight: lighter;font-style: oblique;}
+.paragrafo1 {font-size: 18px;margin: 20px; font-family: arial;}
+
+
+/*------------------FIM CONTEUDO 2--------------------------------*/
+
+
+
+
+/*---------------INICIO RODAPE----------------------------*/
+
+ #rodape{width: 100%; height: 50px;float: left;background-color: #ff8c00;}
+ .direitos{text-align:center;font-size: 18px; margin: 20px; color: #FFF;}
+
+/*---------------FIM RODAPE----------------------------*/
+
+
+
+
+
+
+
+
+
+/*------------------INCICIO CONTEUDO_PLANOS-----------*/
+.sub_conteudo{width: 100%; height: 600px;float: left;background-color:#fff;}
+.imgplano{margin: 50px 30px; }
+.imgequipamentos{margin: 80px 40px;}
+.sub_conteudo2{width: 100%; height: 600px; background-color: white;}
+/*-----------------FIM CONTEUDO_PLANOS-----------------*/
+
+
+
+
+
+/*------------------INICIO CONTEUDO_QUEM SOMOS---------------*/
+ .divquemsomos{width: 100%;height: 600px;background-color:white;}
+ .divp4{width: 40%;height: 200px;background-color: #87CEFA;float: left;margin: 15px 40px;font-weight: normal;font-style: italic;}
+ .divp5{width: 40%;height: 200px;background-color: #ffe0b5;float: right;margin: 15px 40px;font-weight: normal;font-style: italic;}
+ .p0{color:#00BFFF;font-size: 50px;font-family: arial; float: center;margin: 10px 150px;font-weight: 200;font-style: oblique;}
+ .p1{font-family: arial; font-size: 16px;margin:20px;font-weight: normal;}
+ .p2{font-family: arial; font-size: 16px;margin:20px;font-weight: normal;}
+ .p3{font-family: arial; font-size: 16px;margin:20px;font-weight: normal;}
+ .p4{color:#ffe0b5;font-family: arial; font-size: 16px;margin: 4px 200px;}
+ .p5{color:#00BFFF;font-family: arial; font-size: 16px;margin: 4px 200px;}
+ .conteudop4{margin: 50px 20px;font-family: arial;font-style: oblique;}
+ .conteudop5{margin: 50px 20px;font-family: arial;font-style: oblique;}
+
+
+/*-----------------FIM CONTEUDO_QUEM SOMOS-------------------*/
+
+  
+
+
+
+/*-----------------INICIO CONTEUDO_CONTATO---------------*/
+ .divcontato{width: 100%;height: 600px;background-color:white;}
+ .imgcontato{margin: 100px 100px;}
+/*-----------------FIM CONTEUDO_CONTATO------------------*/
+
+
+
+
+/*------------------CONTEUDO_CADASTRE-SE-----------*/
+.divcor{background-color:#65f; width: 100%; height: 600px}
+.campos{width: 50%;font-size: 16px; margin: 15px  25%;height: 35px;float: left; border-radius: 25px; box-shadow: 4px 4px 10px 2px;padding: 7px}
+/*.legenda{ font-size: 18px; float: center;margin-left: 25%; color: white; font-family: arial; font-style: italic;}*/
+.btenviar{font-size: 16px;font-family: arial;  margin-left:  25%;float: center;  border-radius: 10px; box-shadow: 2px 2px 5px 2px;padding: 10px}
+.btenviar:hover{background-color: #32CD32; color: white;}
+.btlimpar{font-size: 16px;font-family: arial;margin-left: 8%;float: center; border-radius: 10px; box-shadow: 2px 2px 5px 2px;padding: 10px}
+.btlimpar:hover{background-color: black; color: white;}
+.titulo_cad{font-size: 50px; margin-left: 25%;color: white; font-family: arial;}
+.menu_cad{width: 100%; height: 50px;float: left;background-color: #ff8c00; }
+.voltar_cad{font-size: 30px;  margin-left: 2%;float: left;padding: 10px;background-color:#ff8c00; color: #FFF}
+.voltar_cad:hover{background-color: #59f}
+
+/*------------------FIM CONTEUDO_CADASTRE-SE------------------*/
+
+
+/*------------------INCIO PAGINA CENTRAL CLIENTE-------------*/
+.divcorlg{background-color:black; width: 100%; height: 600px}
+.camposlg{width: 50%;font-size: 16px; margin: 15px  25%;height: 35px;float: left; border-radius: 25px; box-shadow: 4px 4px 10px 2px;padding: 7px}
+/*.legenda{ font-size: 18px; float: center;margin-left: 25%; color: white; font-family: arial; font-style: italic;}*/
+.btenviarlg{font-size: 16px;font-family: arial;  margin-left:  25%;float: center;  border-radius: 10px; box-shadow: 2px 2px 5px 2px;padding: 10px}
+.btenviarlg:hover{background-color: #32CD32; color: white;}
+.btlimparlg{font-size: 16px;font-family: arial;margin-left: 8%;float: center; border-radius: 10px; box-shadow: 2px 2px 5px 2px;padding: 10px}
+.btlimparlg:hover{background-color: black; color: white;}
+.titulo_cadlg{font-size: 50px; margin-left: 25%;color: white; font-family: arial;}
+.menu_cadlg{width: 100%; height: 50px;float: left;background-color: #ff8c00; }
+.voltar_cadlg{font-size: 30px;  margin-left: 2%;float: left;padding: 10px;background-color:#ff8c00; color: #FFF}
+.voltar_cadlg:hover{background-color: #59f}
+.linkslg{margin: 15px;  width:100%; height:153px;background-color: black;}
+.linkcad{float: left; margin-left: 25%; color: blue}
+.linkcad1{ float: left; margin-left: 25%; color: white }
+
+
+/*------------------FIM PAGINA CENTRAL CLIENTE-------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
