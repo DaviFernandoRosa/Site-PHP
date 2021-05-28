@@ -12,6 +12,8 @@ $email			=	$_POST['email'];
 $senha			=	$_POST['senha'];
 $repetesenha	=	$_POST['repetesenha'];
 
+
+
 /* Mostrar dados na tela
 echo "Nome: $nome<br>";
 echo "E-mail: $email<br>";
